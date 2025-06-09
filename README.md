@@ -3,7 +3,7 @@ Implementation of EMNLP 2024 paper [Make Some Noise: Unlocking Language Model Pa
 Capability through Noisy Training](https://arxiv.org/pdf/2406.17404).
 
 <div style="text-align: center">
-<img src="./pic/intro.png"/>
+<img src="./pic/intro.png" width="80%"/>
 </div>
 
 ## Requirements
@@ -13,7 +13,7 @@ Capability through Noisy Training](https://arxiv.org/pdf/2406.17404).
 ## A minimal implementation of MSN
 
 <div style="text-align: center">
-<img src="./pic/msn.png"/>
+<img src="./pic/msn.png" width="80%"/>
 </div>
 
 The MSN framework can be easily integrated into the data preprocessing stage of any training script. The entire noise addition process is as follows:
@@ -36,7 +36,7 @@ for source_ids, input_ids in dataset:
 ## TR-Jacobi
 
 <div style="text-align: center">
-<img src="./pic/tr-jacobi.png"/>
+<img src="./pic/tr-jacobi.png" width="50%"/>
 </div>
 
 We demonstrate how to use TR-Jacobi to accelerate the MSN-trained model in ```src/inference_msn.py```.
