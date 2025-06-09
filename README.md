@@ -2,7 +2,7 @@
 Implementation of EMNLP 2024 paper [Make Some Noise: Unlocking Language Model Parallel Inference
 Capability through Noisy Training](https://arxiv.org/pdf/2406.17404).
 
-<div style="text-align: center">
+<div align="center">
 <img src="./pic/intro.png" width="80%"/>
 </div>
 
@@ -12,7 +12,7 @@ Capability through Noisy Training](https://arxiv.org/pdf/2406.17404).
 
 ## A minimal implementation of MSN
 
-<div style="text-align: center">
+<div align="center">
 <img src="./pic/msn.png" width="80%"/>
 </div>
 
@@ -35,7 +35,7 @@ for source_ids, input_ids in dataset:
 
 ## TR-Jacobi
 
-<div style="text-align: center">
+<div align="center">
 <img src="./pic/tr-jacobi.png" width="50%"/>
 </div>
 
